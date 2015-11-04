@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<script>
+    var request = new XMLHttpRequest();
+    request.open("GET", "./main.js");
+    request.onload = onScriptLoaded;
+    request.send();
+
+    function onScriptLoaded() {
+        var scriptText = request.responseText;
+        scriptText = scriptText.replace('wibble', 'alert');
+        var script = document.createElement('script');
+        script.textContent = scriptText;
+        document.body.appendChild(script);
+    }
+</script>
