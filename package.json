@@ -4,11 +4,13 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
+    "jasmine": "^2.3.2",
     "proxyquire": "^1.7.3"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node testMain.js"
+    "test": "jasmine JASMINE_CONFIG_PATH=./jasmine.json",
+    "jasmine": "jasmine"
   },
   "author": "Alex Pearson",
   "license": "ISC"
