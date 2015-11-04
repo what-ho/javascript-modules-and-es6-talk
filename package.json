@@ -6,11 +6,15 @@
   "dependencies": {
     "babel-core": "^6.0.14",
     "babel-preset-es2015": "^6.0.14",
+    "jasmine": "^2.3.2",
+    "jshint": "^2.8.0",
     "proxyquire": "^1.7.3"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node bootstrap.js"
+    "start": "node bootstrap.js",
+    "test": "jasmine JASMINE_CONFIG_PATH=./jasmine.json",
+    "jshint" : "jshint . --exclude ./node_modules"
   },
   "author": "Alex Pearson",
   "license": "ISC",
