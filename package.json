@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "node bootstrap.js",
-    "jspm": "jspm"
+    "jspm": "jspm",
+    "bundle": "jspm bundle main.js bundle.js --inject"
   },
   "author": "Alex Pearson",
   "license": "ISC",
