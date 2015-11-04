@@ -1,0 +1,15 @@
+{
+  "name": "talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "proxyquire": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node testMain.js"
+  },
+  "author": "Alex Pearson",
+  "license": "ISC"
+}
