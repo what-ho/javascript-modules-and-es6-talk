@@ -1,4 +1,11 @@
 import * as console from 'console';
-import * as module from './module.js';
 
-console.log(module.hello() + ' world');
+function run() {
+
+    //Dynamic import
+    var module = require('./module.js');
+    console.log(module.hello() + ' world');
+}
+
+run();
+
