@@ -1,0 +1,15 @@
+{
+  "name": "talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "browserify": "^12.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build" : "browserify main.js -o bundle.js"
+  },
+  "author": "Alex Pearson",
+  "license": "ISC"
+}
