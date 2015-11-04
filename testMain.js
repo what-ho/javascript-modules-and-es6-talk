@@ -8,15 +8,15 @@ function mockHello() {
     return 'test hello';
 }
 
-/*Redefine console.log*/
-var actualConsoleLog = console.log;
+var mockConsole = {
+    log : mockLog
+};
 
 function mockLog(text) {
-    actualConsoleLog('logged: text');
+    console.log('logged: ' + text);
 }
 
-console.log = mockLog;
-
 var main = proxyquire('./main.js', {
+    'console' : mockConsole,
     './module.js' : mockModule
 });
