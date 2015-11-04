@@ -1,6 +1,6 @@
-== mocking CommonJS modules 
+## mocking CommonJS modules 
 
-=== To recreate 
+### To recreate 
 * command prompt in new folder 
 * git init
 * npm init ,answer questions
@@ -9,10 +9,10 @@
 * define a main file javascript as entry point to start app  
 * Use proxyquire instead of require to inject mocks into a component
 
-=== To run : 
+### To run : 
 * npm start 
 
-=== Use of package.json -> scripts 
+### Use of package.json -> scripts 
 * Simple alternative to grunt / gulp / other script runners 
 * scripts run with 'node_modules/bin/' automatically in search path
 * local npm packages place hooks to any command-line scripts under node_modules/bin
