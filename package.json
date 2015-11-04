@@ -1,0 +1,25 @@
+{
+  "name": "talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "proxyquire": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node bootstrap.js",
+    "jspm": "jspm"
+  },
+  "author": "Alex Pearson",
+  "license": "ISC",
+  "jspm": {
+    "configFile": "systemJsConfig.js",
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
