@@ -28,4 +28,5 @@
 * modules do not need 'use strict'; in them or IIFEs (https://en.wikipedia.org/wiki/Immediately-invoked_function_expression) common in ES5 javascript 
 * 'babel' transpiler, version 6.x by default transpiles nothing. All ES6 features to detect and transpile must be explicitly opted in.
 * babel preset setting 'es2015' pulls in a set of default transpilation options  (http://babeljs.io/docs/plugins/preset-es2015/) 
-* babel settings held in package.json is optional here - can be held in separate file 
+* babel settings usually held in .babelrc by default. Babel setttings held here in package.json, a supported alternative location (to keep all project settings in one place)
+  
